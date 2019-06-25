@@ -8,4 +8,21 @@ html {
 
 body {
     background: #2C2141;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background: #F8F8F8;
+    border-radius: 16px;
+    max-width: 624px;
+    width: 100%;
+    padding: 32px;
+}
+
+.person__photo {
+    width: 148px;
+    border-radius: 100%;
 }
