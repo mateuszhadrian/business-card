@@ -9,6 +9,7 @@ html {
 body {
     background: #2C2141;
     min-height: 100vh;
+    padding: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +23,12 @@ body {
     padding: 32px;
 }
 
+.person {
+    display: flex;
+    align-items: flex-start;
+}
 .person__photo {
     width: 148px;
     border-radius: 100%;
+    margin-right: 32px;
 }
